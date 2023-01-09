@@ -18,7 +18,7 @@ const App = () => {
     <div id="main">
       <input type="range" id="height-slider" onChange={changeSizeHandle} min="100" max="800" value={myStyle.height} />
       <input type="range" id="width-slider" onChange={changeSizeHandle} min="100" max="800" value={myStyle.width} />
-      <img src={ImageSrc} alt="No" width={myStyle.width} height={myStyle.height} />
+      <img src={ImageSrc} alt="No" width={myStyle.width} height={myStyle.height} id='resizable-img'/>
       
     </div>
   )
